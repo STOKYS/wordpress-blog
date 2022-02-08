@@ -1,19 +1,15 @@
 #!/bin/bash
 
 echo Set yout WP title:
-
 read setTitle
 
 echo Set your admin username: 
-
 read setUname
 
 echo Set your email:
-
 read setMail
 
 echo Set your password:
-
 read setPass
 
 echo $setTitle $setUname $setPass
@@ -22,7 +18,7 @@ docker-compose build
 
 docker-compose up -d
 
-sudo chmod -R 777 /build
+sudo chmod -R 777 build
 
 tar xvfz wordpress.tar.gz -C build/wordpress
 
