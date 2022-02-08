@@ -2,6 +2,8 @@
 # INSTALL 
 git clone https://github.com/STOKYS/wordpress-blog
 
+**You can run the install.sh or you can do it manually**
+
 cd wordpress-blog
 
 docker-compose build
